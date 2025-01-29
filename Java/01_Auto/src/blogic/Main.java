@@ -9,7 +9,7 @@ package blogic;
  * @author maxi-leidl
  */
 public class Main {
-
+    
     /**
      * @param args the command line arguments
      */
