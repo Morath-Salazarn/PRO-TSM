@@ -53,6 +53,10 @@ public class Auto {
     }
     
     
+    public boolean istErreichbar(double kilometer){
+        return kilometer * verbrauchProKm <= tankVolumen;
+    }
+    
     
     
 }
