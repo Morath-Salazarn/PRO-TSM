@@ -51,12 +51,20 @@ public class Konto {
     
     public void einzahlen(double betrag){
         if(betrag > 0){
-            setKontostand(getKontostand() + betrag);
+            kontostand += betrag;
         }
     }
     
     public boolean auszahlen(double betrag){
-        
+        if(betrag >0){
+            if(this.kontostand >= betrag){
+                this.kontostand -= betrag;
+                return true;
+            }
+        }
+        else{
+            return false;
+        }
     }
     
 }
