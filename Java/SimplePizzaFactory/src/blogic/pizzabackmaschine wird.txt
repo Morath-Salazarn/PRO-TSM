@@ -1,0 +1,11 @@
+pizzabackmaschine 
+wird gebaut von Maschinenbauern
+Menüdisplay mit knöpfen für die Pizzen und Startknopf (kein GUI)
+teig + topping
+teig rollt auf Band
+wird gebacken
+wird geschnitten
+wird geboxt
+
+Startproduction Methode
+für neue pizzen flexibel
