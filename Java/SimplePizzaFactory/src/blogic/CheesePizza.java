@@ -24,9 +24,9 @@ public class CheesePizza extends Pizza {
         System.out.println("Backzeit: 9 Minuten bei 220 Grad.");
     }
     public void box(){
-        
+        System.out.println("Verpackung: Pizzakarton mit 35cm Durchmesser.");
     }
     public void cut(){
-        
+        System.out.println("Die Pizza wird in quadratische Stücke geschnitten.");
     }
 }
