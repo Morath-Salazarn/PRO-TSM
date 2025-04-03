@@ -11,8 +11,8 @@ package blogic;
 public class CheesePizza extends Pizza {
 
     public CheesePizza() {
-        name = "Kaesepizza";
-        dough = "duenner knuspriger Teig";
+        setName("Kaesepizza");
+        setDough("duenner knuspriger Teig");
         sauce = "Tomatensauce";
         toppings.add("geriebener Mozzarella");
         
