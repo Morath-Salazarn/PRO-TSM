@@ -32,7 +32,7 @@ public class App extends Application {
         TextField zaehler = new TextField();
         
         root.setRight(vboxRechts);
-        root.setTop(zaehler);
+        root.setCenter(zaehler);
         
         Button klick = new Button("+");
         Button reset = new Button("reset");
