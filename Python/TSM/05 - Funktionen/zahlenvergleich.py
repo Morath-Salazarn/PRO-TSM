@@ -1,7 +1,13 @@
-def max(zahl1, zahl2):
-    if zahl1 < zahl2:
-        return zahl2
+def max(zahl1, zahl2, *zahlen):
+    groesste = 0
+    if zahl1 > zahl2:
+        groesste = zahl1
     else:
-        return zahl1
-    
-print(max(1,2))
+        groesste = zahl2
+
+    for zahl in zahlen:
+        if zahl > groesste:
+            groesste = zahl
+    return groesste
+
+print(max(1,2,5,7,2,8,6,1))
